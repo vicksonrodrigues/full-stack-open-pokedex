@@ -33,4 +33,7 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: " pure-eyrie-43871" #Must be unique in Heroku
           heroku_email: "vickson.rodrigues@gmail.com"
+          healthcheck: "https://pure-eyrie-43871.herokuapp.com/health"
+          checkstring: "ok"
+          rollbackonhealthcheckfailed: true
         
