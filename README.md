@@ -13,4 +13,5 @@ Start by running `npm install` inside the project folder
 `npm run eslint` to run eslint
 `npm run build` to make a production build
 `npm run start-prod` to run your production build
-`npm run test:e2e` to run cypress tests
+`npm run test:e2e` to run Cypress tests
+`npm run test` to run Jest tests
